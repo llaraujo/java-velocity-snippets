@@ -306,3 +306,8 @@ $!{_userAgent.isFeaturePhone()}
 <script>console.log("${1:var}")</script>
 ```
 
+
+
+## License
+
+[MIT License](http://llaraujo.mit-license.org/) © Leonardo Lima Araujo
