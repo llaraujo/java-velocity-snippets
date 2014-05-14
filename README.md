@@ -1,4 +1,4 @@
-# Java Velocity Snippets for Sublime Text 2/3
+# Java Velocity Snippets for Sublime Text
 
 ## Vars
 
