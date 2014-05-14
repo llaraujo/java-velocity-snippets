@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+#foreach (\$${1:item} in \$!{${2:myCollection}})
+	${0}
+#end
+]]></content>
+	<tabTrigger>fe</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>forEach</description>
+</snippet>

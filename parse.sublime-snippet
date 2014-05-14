@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#parse("${1:file}")
+]]></content>
+	<tabTrigger>p</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>parse</description>
+</snippet>

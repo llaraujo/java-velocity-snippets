@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<script>console.log("\$\{${1:var}\}")</script>
+]]></content>
+	<tabTrigger>dj</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>debug js</description>
+</snippet>

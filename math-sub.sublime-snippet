@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{math.sub(\$!\{${1:number1}\}, \$!\{${2:number2}\})\}
+]]></content>
+	<tabTrigger>ms</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>math.sub</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{link.getHost()\}
+]]></content>
+	<tabTrigger>lh</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>link.getHost</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{math.mul(\$!\{${1:number1}\}, \$!\{${2:number2}\})\}
+]]></content>
+	<tabTrigger>mm</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>math.mul</description>
+</snippet>

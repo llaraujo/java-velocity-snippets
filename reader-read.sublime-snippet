@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$_reader.read("\$!\{${1:file}\}")
+]]></content>
+	<tabTrigger>rr</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>reader.read</description>
+</snippet>

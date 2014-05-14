@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{date.format("${1:HH:mm:ss}", "\$!\{${2:date}\}")\}
+]]></content>
+	<tabTrigger>df</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>date.format</description>
+</snippet>

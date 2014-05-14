@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$_json.open("\$!\{${1:file}\}")
+]]></content>
+	<tabTrigger>jso</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>_json.open</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{_userAgent.isSmartPhone()\}
+]]></content>
+	<tabTrigger>us</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>_userAgent.isSmartPhone</description>
+</snippet>

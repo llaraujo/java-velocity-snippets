@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{date.toDate("${1:yyyyMMddHHmmss}", "\$!\{${2:toDate}\}")\}
+]]></content>
+	<tabTrigger>dd</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>date.toDate</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!{request.getParameter('${1:logic}')}
+]]></content>
+	<tabTrigger>gp</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>request.getParameter</description>
+</snippet>

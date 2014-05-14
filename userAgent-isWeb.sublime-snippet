@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{_userAgent.isWeb()\}
+]]></content>
+	<tabTrigger>uw</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>_userAgent.isWeb</description>
+</snippet>

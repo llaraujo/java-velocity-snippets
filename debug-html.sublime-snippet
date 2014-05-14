@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!-- DEBUG [${1:var}]: \$!\{${1:var}\} -->
+]]></content>
+	<tabTrigger>dh</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>debug html</description>
+</snippet>

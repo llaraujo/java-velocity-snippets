@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+#if (${1:logic})
+	${2}
+#end
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>if</description>
+</snippet>

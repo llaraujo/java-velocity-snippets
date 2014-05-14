@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$_sort.asText.asc(${1:collection}, "${2:field}")
+]]></content>
+	<tabTrigger>sta</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>sort.asText.asc</description>
+</snippet>

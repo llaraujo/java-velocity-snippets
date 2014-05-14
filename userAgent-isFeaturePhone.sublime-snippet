@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{_userAgent.isFeaturePhone()\}
+]]></content>
+	<tabTrigger>uf</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>_userAgent.isFeaturePhone</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:var}.toUpperCase()\}
+]]></content>
+	<tabTrigger>suc</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>s.toUpperCase</description>
+</snippet>

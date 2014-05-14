@@ -1,0 +1,295 @@
+# Velocity Snippets for Sublime
+
+## Vars
+
+### [set] set var
+
+```java
+#set($${1:var}=${2:""})
+```
+
+
+## Strings
+
+### [sie]  string.isEmpty
+
+```java
+$!{${1:var}.isEmpty()}
+```
+
+### [sre]  string.replace
+
+```java
+$!{${1:var}.replace("${2:find}","${3:replace}")}
+```
+
+### [sra]  string.replaceAll
+
+```java
+$!{${1:var}.replaceAll("${2:find}","${3:replace}")}
+```
+
+### [suc]  string.toUpperCase
+
+```java
+$!{${1:var}.toUpperCase()}
+```
+
+## Files
+
+### [p] parse
+
+```java
+#parse("${1:file}")
+```
+
+### [rp] rparse
+
+```java
+#rparse("${1:file}")
+```
+
+## Conditionals
+
+### [if] if
+
+```java
+#if (${1:logic})
+	${2}
+#end
+```
+
+### [ife] if-else
+
+```java
+#if (${1:logic})
+	${2:if}
+#else
+	${3:else}
+#end
+```
+
+## Loop
+
+### [fe] forEach
+
+```java
+#foreach ($${1:item} in $!{${2:myCollection}})
+	${0}
+#end
+```
+
+### [fe] forEach Numeric
+
+```java
+#foreach ($${1:item} in [${2:0}..${3:1}])
+	${0}
+#end
+```
+
+### [fi] for in
+
+```java
+#foreach ($${1:item} in $!{${2:myCollection}.keySet()})
+	${0}
+#end
+```
+
+## Date Tool
+
+### [dd] date.toDate
+
+```java
+$!{date.toDate("${1:format}", "${2:toDate}")}
+```
+
+### [df] date.format
+
+```java
+$!{date.format("${1:newFormat}", "${2:date}")}
+```
+
+## Include Tool
+
+### [iex] include.exists
+
+```java
+$!{include.exists("${1:file}")}
+```
+
+
+## Json Tool
+
+### [jso] _json.open
+
+```java
+$_json.open("${1:file}")
+```
+
+### [jss] _json.toString
+
+```java
+$_json.toString("{${1:json}")
+```
+
+
+## Math Tool
+
+### [mn] math.toNumber
+
+```java
+$!math.toNumber(${1:var})
+```
+
+### [ma] math.add
+
+```java
+$math.add(${1:number1}, ${2:number2})
+```
+
+### [ma] math.sub
+
+```java
+$math.sub(${1:number1}, ${2:number2})
+```
+
+### [ma] math.mul
+
+```java
+$math.mul(${1:number1}, ${2:number2})
+```
+
+## Link Tool
+
+### [lh] link.getHost
+
+```java
+$link.getHost()
+```
+
+### [lr] link.getRoot
+
+```java
+$link.getRoot()
+```
+
+## Reader Tool
+
+### [rr] _reader.read
+
+```java
+$_reader.read("${1:file}")
+```
+
+
+## Request Tool
+
+### [rgp] request.getParameter
+
+```java
+$!{request.getParameter("${1:logic}")}
+```
+
+### [rqs] request.getQueryString
+
+```java
+${request.getQueryString()}
+```
+
+
+## Response Tool
+
+### [rcc] response.setHeader: "Cache-Control"
+
+```java
+$response.setHeader("Cache-Control", "max-age=${1:20}")
+```
+
+### [rct] response.setContentType
+
+```java
+$response.setContentType("${1:application/json}")
+```
+
+
+## Sort Tool
+
+### [sna] sort.asNumber.asc
+
+```java
+$_sort.asNumber.asc(${1:collection}, "${2:field}")
+```
+
+### [snd] sort.asNumber.desc
+
+```java
+$_sort.asNumber.desc(${1:collection}, "${2:field}")
+```
+
+### [sta] sort.asText.asc
+
+```java
+$_sort.asText.asc(${1:collection}, "${2:field}")
+```
+
+### [std] sort.asText.desc
+
+```java
+$_sort.asText.desc(${1:collection}, "${2:field}")
+```
+
+## UserAgent
+
+### [uw] _userAgent.isWeb
+
+```java
+$!{_userAgent.isWeb()}
+```
+
+### [us] _userAgent.isSmartPhone
+
+```java
+$!{_userAgent.isSmartPhone()}
+```
+
+### [uf] _userAgent.isFeaturePhone
+
+```java
+$!{_userAgent.isFeaturePhone()}
+```
+
+
+## Miscellaneous
+
+## [vm] hash utf-8
+```java
+#!vm; utf-8
+```
+
+### [igp] if request.getParameter
+
+```java
+#if ($!{request.getParameter("${1:logic}")})
+	${2}
+#end
+```
+
+### [st] stop
+```java
+#stop
+```
+
+
+## Debug
+
+### [dh] debug html
+
+```java
+<!-- DEBUG [${1:varName}]: ${2:var} -->
+```
+
+### [dj] debug js
+
+```java
+<script>console.log("${1:var}")</script>
+```

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{math.toNumber(\$!\{${1:var}\})\}
+]]></content>
+	<tabTrigger>mn</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>math.toNumber</description>
+</snippet>

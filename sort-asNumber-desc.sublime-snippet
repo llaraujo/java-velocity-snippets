@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$_sort.asNumber.desc(${1:collection}, "${2:field}")
+]]></content>
+	<tabTrigger>snd</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>sort.asNumber.desc</description>
+</snippet>

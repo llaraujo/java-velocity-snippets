@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$response.setHeader("Cache-Control", "max-age=${1:20}")
+]]></content>
+	<tabTrigger>cc</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>cache-control</description>
+</snippet>

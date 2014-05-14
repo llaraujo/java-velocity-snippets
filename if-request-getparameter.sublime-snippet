@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+#if (\$!{request.getParameter('${1:logic}')})
+	${2}
+#end
+]]></content>
+	<tabTrigger>igp</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>if(request.getParameter)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{math.add(\$!\{${1:number1}\}, \$!\{${2:number2}\})\}
+]]></content>
+	<tabTrigger>ma</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>math.add</description>
+</snippet>

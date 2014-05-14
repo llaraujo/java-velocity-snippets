@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:var}.isEmpty()\}
+]]></content>
+	<tabTrigger>sie</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>s.isEmpty</description>
+</snippet>

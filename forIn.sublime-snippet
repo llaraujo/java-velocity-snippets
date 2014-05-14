@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+#foreach (\$${1:item} in [${2:0}..${3:1}])
+	${0}
+#end
+]]></content>
+	<tabTrigger>fi</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>forIn</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#!vm; utf-8
+]]></content>
+	<tabTrigger>vm</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>#!vm; utf8</description>
+</snippet>

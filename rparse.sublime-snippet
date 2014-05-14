@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#rparse("${1:file}")
+]]></content>
+	<tabTrigger>r</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>rparse</description>
+</snippet>

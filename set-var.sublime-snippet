@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#set(\$${1:null}=${2:""})
+]]></content>
+	<tabTrigger>set</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>set var</description>
+</snippet>

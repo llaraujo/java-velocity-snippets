@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!{include.exists("${1:file}")}
+]]></content>
+	<tabTrigger>iex</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>if(include.exists)</description>
+</snippet>
