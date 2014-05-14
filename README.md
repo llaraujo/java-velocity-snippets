@@ -199,16 +199,28 @@ ${request.getQueryString()}
 
 ## Response Tool
 
+### [rct] response.setContentType
+
+```java
+$response.setContentType("${1:application/json}")
+```
+
 ### [rcc] response.setHeader: "Cache-Control"
 
 ```java
 $response.setHeader("Cache-Control", "max-age=${1:20}")
 ```
 
-### [rct] response.setContentType
+### [rsr] response.sendRedirect
 
 ```java
-$response.setContentType("${1:application/json}")
+$response.sendRedirect("${1:url}")
+```
+
+### [rst] response.setStatus
+
+```java
+$response.setStatus(${1:301})
 ```
 
 

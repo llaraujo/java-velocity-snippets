@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$response.setStatus(${1:301})
+]]></content>
+	<tabTrigger>rst</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>set status</description>
+</snippet>

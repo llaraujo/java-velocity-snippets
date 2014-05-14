@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$response.sendRedirect("${1:url}")
+]]></content>
+	<tabTrigger>rsr</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>redirect</description>
+</snippet>
