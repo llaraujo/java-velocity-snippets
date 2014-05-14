@@ -1,4 +1,4 @@
-# Velocity Snippets for Sublime
+# Java Velocity Snippets for Sublime Text 2/3
 
 ## Vars
 
@@ -293,3 +293,4 @@ $!{_userAgent.isFeaturePhone()}
 ```java
 <script>console.log("${1:var}")</script>
 ```
+
