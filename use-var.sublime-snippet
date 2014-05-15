@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:!}{${2:var}}
+]]></content>
+	<tabTrigger>var</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>use var</description>
+</snippet>
