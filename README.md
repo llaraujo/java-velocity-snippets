@@ -159,6 +159,12 @@ $math.sub(${1:number1}, ${2:number2})
 $math.mul(${1:number1}, ${2:number2})
 ```
 
+### [mr] math.random
+
+```java
+$!{math.random($!{${1:number1}}, $!{${2:number2}})}
+```
+
 ## Link Tool
 
 ### [lh] link.getHost
