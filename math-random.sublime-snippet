@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$!\{math.random(\$!\{${1:number1}\}, \$!\{${2:number2}\})\}
+\$!\{math.random(${1:number1}, ${2:number2})\}
 ]]></content>
 	<tabTrigger>mr</tabTrigger>
 	<scope>source.velocity</scope>
