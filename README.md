@@ -8,6 +8,11 @@
 #set($${1:var}=${2:""})
 ```
 
+### [var] use var
+
+```java
+$!{${2:var}}
+```
 
 ## Strings
 
