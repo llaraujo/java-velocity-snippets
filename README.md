@@ -11,7 +11,7 @@
 ### [var] use var
 
 ```java
-$${1:!}{${2:var}}
+$!{${2:var}}
 ```
 
 ## Strings
