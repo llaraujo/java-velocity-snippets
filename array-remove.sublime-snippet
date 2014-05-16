@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+.remove(${1:numericKey})
+]]></content>
+	<tabTrigger>ar</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.remove</description>
+</snippet>

@@ -14,9 +14,38 @@
 $!{${2:var}}
 ```
 
-## Strings
+## Array
+### [aa] array.add
 
-### [sie]  string.isEmpty
+```java
+$!{${1:arrayName}.add($!{${1:arrayName}.size()}, ${2:value})}
+```
+
+### [ar] array.remove
+
+```java
+.remove(${1:numericKey})
+```
+
+
+## Object
+
+### [op] object.put
+
+```java
+.put("${1:key}", ${2:value})
+```
+
+### [or] object.remove
+
+```java
+.remove("${1:key}")
+```
+
+
+## String
+
+### [sie] string.isEmpty
 
 ```java
 $!{${1:var}.isEmpty()}
@@ -28,17 +57,18 @@ $!{${1:var}.isEmpty()}
 $!{${1:var}.replace("${2:find}","${3:replace}")}
 ```
 
-### [sra]  string.replaceAll
+### [sra] string.replaceAll
 
 ```java
 $!{${1:var}.replaceAll("${2:find}","${3:replace}")}
 ```
 
-### [suc]  string.toUpperCase
+### [suc] string.toUpperCase
 
 ```java
 $!{${1:var}.toUpperCase()}
 ```
+
 
 ## Files
 
@@ -138,6 +168,21 @@ $_json.toString("{${1:json}")
 ```
 
 
+## Link Tool
+
+### [lh] link.getHost
+
+```java
+$link.getHost()
+```
+
+### [lr] link.getRoot
+
+```java
+$link.getRoot()
+```
+
+
 ## Math Tool
 
 ### [mn] math.toNumber
@@ -170,19 +215,6 @@ $math.mul(${1:number1}, ${2:number2})
 $!{math.random($!{${1:number1}}, $!{${2:number2}})}
 ```
 
-## Link Tool
-
-### [lh] link.getHost
-
-```java
-$link.getHost()
-```
-
-### [lr] link.getRoot
-
-```java
-$link.getRoot()
-```
 
 ## Reader Tool
 
@@ -214,6 +246,12 @@ ${request.getQueryString()}
 
 ```java
 $response.setContentType("${1:application/json}")
+```
+
+### [rcc] response.setHeader
+
+```java
+$response.setHeader("${1:attr}", "${2:value}")
 ```
 
 ### [rcc] response.setHeader: "Cache-Control"
