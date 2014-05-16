@@ -248,7 +248,7 @@ ${request.getQueryString()}
 $response.setContentType("${1:application/json}")
 ```
 
-### [rcc] response.setHeader
+### [rsh] response.setHeader
 
 ```java
 $response.setHeader("${1:attr}", "${2:value}")

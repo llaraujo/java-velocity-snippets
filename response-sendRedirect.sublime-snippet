@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>rsr</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>redirect</description>
+	<description>response.sendRedirect</description>
 </snippet>

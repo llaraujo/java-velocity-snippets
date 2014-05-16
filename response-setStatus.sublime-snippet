@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>rst</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>set status</description>
+	<description>response.setStatus</description>
 </snippet>
