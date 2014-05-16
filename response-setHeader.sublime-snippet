@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$response.setHeader("${1:attr}", "${2:value}")
+]]></content>
+	<tabTrigger>rsh</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>response.setHeader</description>
+</snippet>
