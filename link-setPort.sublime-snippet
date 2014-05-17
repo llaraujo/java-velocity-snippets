@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{link.setPort(${1:80})\}
+]]></content>
+	<tabTrigger>lsp</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>link.setPort</description>
+</snippet>

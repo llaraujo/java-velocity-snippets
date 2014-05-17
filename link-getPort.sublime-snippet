@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{link.getPort()\}
+]]></content>
+	<tabTrigger>lgp</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>link.getPort</description>
+</snippet>

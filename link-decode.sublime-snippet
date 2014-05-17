@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{link.decode(${1:var})\}
+]]></content>
+	<tabTrigger>ld</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>link.decode</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{link.encode(${1:var}.replace('+','%20'))\}
+]]></content>
+	<tabTrigger>le</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>link.encode</description>
+</snippet>

@@ -170,16 +170,40 @@ $_json.toString("{${1:json}")
 
 ## Link Tool
 
-### [lh] link.getHost
+### [ld] link.decode
 
 ```java
-$link.getHost()
+$!{link.decode(${1:var})}
 ```
 
-### [lr] link.getRoot
+### [le] link.encode
 
 ```java
-$link.getRoot()
+$!{link.encode(${1:var}.replace(' ','%20'))}
+```
+
+### [lgh] link.getHost
+
+```java
+$!{link.getHost()}
+```
+
+### [lgp] link.getPort
+
+```java
+$!{link.getPort()}
+```
+
+### [lgr] link.getRoot
+
+```java
+$!{link.getRoot()
+```
+
+### [lsp] link.setPort
+
+```java
+$!{link.setPort()}
 ```
 
 
