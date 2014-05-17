@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-.remove(${1:numericKey})
+remove(${1:numericKey})
 ]]></content>
 	<tabTrigger>ar</tabTrigger>
 	<scope>source.velocity</scope>

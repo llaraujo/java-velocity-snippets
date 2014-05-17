@@ -24,7 +24,7 @@ $!{${1:arrayName}.add($!{${1:arrayName}.size()}, ${2:value})}
 ### [ar] array.remove
 
 ```java
-.remove(${1:numericKey})
+remove(${1:numericKey})
 ```
 
 
@@ -33,13 +33,13 @@ $!{${1:arrayName}.add($!{${1:arrayName}.size()}, ${2:value})}
 ### [op] object.put
 
 ```java
-.put("${1:key}", ${2:value})
+put("${1:key}", ${2:value})
 ```
 
 ### [or] object.remove
 
 ```java
-.remove("${1:key}")
+remove("${1:key}")
 ```
 
 
