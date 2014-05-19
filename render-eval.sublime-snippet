@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$render.eval("\$!\{${1:var}\}")
+]]></content>
+	<tabTrigger>re</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>render.eval</description>
+</snippet>

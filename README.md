@@ -249,6 +249,15 @@ $_reader.read("${1:file}")
 ```
 
 
+## Render Tool
+
+### [re] render.eval
+
+```java
+$render.eval("${1:var}")
+```
+
+
 ## Request Tool
 
 ### [rgp] request.getParameter
