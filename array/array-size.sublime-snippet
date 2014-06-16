@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.size()\}
+]]></content>
+	<tabTrigger>as</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.size()</description>
+</snippet>

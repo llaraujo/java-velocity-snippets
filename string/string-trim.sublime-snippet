@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.trim()\}
+]]></content>
+	<tabTrigger>st</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.trim()</description>
+</snippet>

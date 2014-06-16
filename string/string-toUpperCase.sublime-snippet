@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$!\{${1:var}.toUpperCase()\}
+\$!\{${1:string}.toUpperCase()\}
 ]]></content>
 	<tabTrigger>suc</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>s.toUpperCase</description>
+	<description>string.toUpperCase()</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.endsWith("${2:string2}")\}
+]]></content>
+	<tabTrigger>sew</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.endsWith(string2)</description>
+</snippet>

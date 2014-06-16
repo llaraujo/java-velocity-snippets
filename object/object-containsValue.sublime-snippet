@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:object}.containsValue("${2:value}")\}
+]]></content>
+	<tabTrigger>ocv</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>object.containsValue(value)</description>
+</snippet>

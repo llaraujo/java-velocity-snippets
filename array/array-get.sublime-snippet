@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.get(${2:pos})\}
+]]></content>
+	<tabTrigger>ag</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.get(pos)</description>
+</snippet>

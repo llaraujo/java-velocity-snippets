@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.add(${2:value})\}
+]]></content>
+	<tabTrigger>aa</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.add(value)</description>
+</snippet>

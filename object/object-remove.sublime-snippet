@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-remove("${1:key}")
+\$!\{${1:object}.remove("${2:key}")\}
 ]]></content>
 	<tabTrigger>or</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>obj.remove</description>
+	<description>object.remove(key)</description>
 </snippet>

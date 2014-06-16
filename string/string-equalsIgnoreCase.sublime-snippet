@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.equalsIgnoreCase("${2:string2}")\}
+]]></content>
+	<tabTrigger>seic</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.equalsIgnoreCase(string2)</description>
+</snippet>

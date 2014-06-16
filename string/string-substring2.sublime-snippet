@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.substring(${2:pos1}, ${3:pos2})\}
+]]></content>
+	<tabTrigger>ssub</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.substring(pos1, pos2)</description>
+</snippet>

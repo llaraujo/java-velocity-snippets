@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.contains("${2:string2}")\}
+]]></content>
+	<tabTrigger>scs</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.contains(string2)</description>
+</snippet>

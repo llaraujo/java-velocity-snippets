@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.subList(${2:initialPos}, ${3:finalPos})\}
+]]></content>
+	<tabTrigger>asl</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.subList(initialPos, finalPos)</description>
+</snippet>

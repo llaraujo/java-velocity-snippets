@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:object}.equals(${2:object2})\}
+]]></content>
+	<tabTrigger>oe</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>object.equals(object2)</description>
+</snippet>

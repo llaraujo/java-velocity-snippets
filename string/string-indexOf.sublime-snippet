@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.indexOf("${2:string2}")\}
+]]></content>
+	<tabTrigger>sio</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.indexOf(string2)</description>
+</snippet>

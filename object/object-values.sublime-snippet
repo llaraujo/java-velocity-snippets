@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:object}.values()\}
+]]></content>
+	<tabTrigger>ov</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>object.values</description>
+</snippet>

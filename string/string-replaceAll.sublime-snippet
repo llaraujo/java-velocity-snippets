@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.replaceAll("${2:find}", "${3:replace}")\}
+]]></content>
+	<tabTrigger>sra</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.replaceAll(find, replace)</description>
+</snippet>

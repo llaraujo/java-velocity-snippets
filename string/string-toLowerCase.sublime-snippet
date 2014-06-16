@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.toLowerCase()\}
+]]></content>
+	<tabTrigger>slc</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.toLowerCase()</description>
+</snippet>

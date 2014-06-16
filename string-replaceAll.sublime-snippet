@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$!\{${1:var}.replaceAll("${2:find}","${3:replace}")\}
-]]></content>
-	<tabTrigger>sra</tabTrigger>
-	<scope>source.velocity</scope>
-	<description>s.replaceAll</description>
-</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:object}.size()\}
+]]></content>
+	<tabTrigger>os</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>object.size()</description>
+</snippet>

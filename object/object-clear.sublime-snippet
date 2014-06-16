@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:object}.clear()\}
+]]></content>
+	<tabTrigger>oc</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>object.clear()</description>
+</snippet>

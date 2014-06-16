@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-put("${1:key}", ${2:value})
+\$!\{${1:object}.put("${2:key}", "${3:value}")\}
 ]]></content>
 	<tabTrigger>op</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>obj.put</description>
+	<description>object.put(key, value)</description>
 </snippet>

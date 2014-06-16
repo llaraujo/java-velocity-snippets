@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$!\{${1:arrayName}.add(\$!\{${1:arrayName}.size()\}, ${2:value})\}
+\$!\{${1:array}.add(${2:pos},${3:value})\}
 ]]></content>
 	<tabTrigger>aa</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>array.add</description>
+	<description>array.add(pos, value)</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.clone()\}
+]]></content>
+	<tabTrigger>acl</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.clone()</description>
+</snippet>

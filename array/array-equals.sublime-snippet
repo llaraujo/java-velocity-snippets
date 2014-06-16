@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.equals(${2:array2})\}
+]]></content>
+	<tabTrigger>aeq</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.equals(array2)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.contentEquals("${2:string2}")\}
+]]></content>
+	<tabTrigger>sce</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.contentEquals(string2)</description>
+</snippet>

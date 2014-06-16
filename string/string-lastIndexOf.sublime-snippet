@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.lastIndexOf("${2:string2}")\}
+]]></content>
+	<tabTrigger>slio</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.lastIndexOf(string2)</description>
+</snippet>

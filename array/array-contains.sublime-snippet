@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.contains(${2:value})\}
+]]></content>
+	<tabTrigger>ac</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.contains(value)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:object}.putAll("${2:object2}")\}
+]]></content>
+	<tabTrigger>opa</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>object.putAll(object2)</description>
+</snippet>

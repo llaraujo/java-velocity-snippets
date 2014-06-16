@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.concat("${2:value}")\}
+]]></content>
+	<tabTrigger>sc</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.concat(value)</description>
+</snippet>

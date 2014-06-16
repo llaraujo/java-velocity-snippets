@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.addAll(${2:pos}, ${3:array2})\}
+]]></content>
+	<tabTrigger>aaa</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.addAll(pos, array2)</description>
+</snippet>

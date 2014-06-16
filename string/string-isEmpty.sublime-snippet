@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$!\{${1:var}.isEmpty()\}
+\$!\{${1:string}.isEmpty()\}
 ]]></content>
 	<tabTrigger>sie</tabTrigger>
 	<scope>source.velocity</scope>
-	<description>s.isEmpty</description>
+	<description>string.isEmpty()</description>
 </snippet>

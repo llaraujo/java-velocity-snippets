@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:array}.retainAll(${2:array2})\}
+]]></content>
+	<tabTrigger>arta</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>array.retainAll(array2)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.replaceFirst("${2:find}", "${3:replace}")\}
+]]></content>
+	<tabTrigger>srf</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.replaceFirst(find, replace)</description>
+</snippet>
