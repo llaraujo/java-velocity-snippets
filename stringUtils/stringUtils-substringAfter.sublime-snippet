@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{stringUtils.substringAfter(${1:string}, ${2:search})\}
+]]></content>
+	<tabTrigger>sustra</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>stringUtils.substringAfter(string, search)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{stringUtils.startsWithIgnoreCase(${1:string}, ${2:search})\}
+]]></content>
+	<tabTrigger>suswic</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>stringUtils.startsWithIgnoreCase(string, search)</description>
+</snippet>

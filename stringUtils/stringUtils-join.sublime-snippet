@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{stringUtils.join(${1:array}, ${2:''})\}
+]]></content>
+	<tabTrigger>suj</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>stringUtils.join(array, concatenator)</description>
+</snippet>
