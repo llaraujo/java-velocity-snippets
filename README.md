@@ -292,7 +292,6 @@ $!{${1:object}.size()}
 $!{${1:object}.values()}
 ```
 
-
 ## String
 
 ### [sc] string.concat
@@ -467,6 +466,18 @@ $!{${1:string}.toUpperCase()}
 
 ```java
 $!{${1:string}.trim()}
+```
+
+## StringUtils
+
+### [scap] stringUtils.captalize
+
+**Descrição:** Recebe valor por parâmetro e deixa a primeira letra em maiúsculo.
+
+**Retorno:** String
+
+```java
+$!{stringUtils.capitalize(${1:string})}
 ```
 
 ## Files

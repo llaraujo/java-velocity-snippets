@@ -4,6 +4,5 @@
 ]]></content>
 	<tabTrigger>scap</tabTrigger>
 	<scope>source.velocity</scope>
-	$stringUtils.capitalize($api.uri[0])
-	<description>string.capitalize()</description>
+	<description>stringUtils.capitalize()</description>
 </snippet>
