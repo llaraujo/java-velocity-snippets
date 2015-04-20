@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$_json.toString({${1:file})
+\$_json.toString(${1:file})
 ]]></content>
 	<tabTrigger>jss</tabTrigger>
 	<scope>source.velocity</scope>
