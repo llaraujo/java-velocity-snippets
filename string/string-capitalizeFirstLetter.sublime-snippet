@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$!\{${1:string}.capitalizeFirstLetter("${2:value}")\}
+]]></content>
+	<tabTrigger>scf</tabTrigger>
+	<scope>source.velocity</scope>
+	<description>string.capitalizeFirstLetter(value)</description>
+</snippet>
