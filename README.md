@@ -470,7 +470,7 @@ $!{${1:string}.trim()}
 
 ## StringUtils
 
-### [scap] stringUtils.captalize
+### [suc] stringUtils.captalize
 
 **Descrição:** Recebe valor por parâmetro e deixa a primeira letra em maiúsculo.
 
@@ -478,6 +478,56 @@ $!{${1:string}.trim()}
 
 ```java
 $!{stringUtils.capitalize(${1:string})}
+```
+
+### [suj] stringUtils.join
+
+**Descrição:** Transforma um array ou objeto em uma string o retorno. Recebe array ou objeto no primeiro parâmetro e o segundo parametro é o concatenador.  
+
+**Retorno:** String
+
+```java
+$!{stringUtils.join(${1:array}, ${2:''})}
+```
+
+### [sur] stringUtils.reverse
+
+**Descrição:** Recebe uma string por parametro e inverte a ordem dos caracteres
+
+**Retorno:** String
+
+```java
+$!{stringUtils.reverse(${1:string})}
+```
+
+### [suswic] stringUtils.startsWithIgnoreCase
+
+**Descrição:** Verifica se o segundo parametro existe no primeiro ignorando maiúsculos ou minúsculos. Recebe string como primeiro parâmetro e o segundo parametro é o concatenador. Transforma em uma string o retorno 
+
+**Retorno:** Boolean
+
+```java
+$!{stringUtils.startsWithIgnoreCase(${1:string}, ${2:search})}
+```
+
+### [sustrb] stringUtils.substringBefore
+
+**Descrição:** Verifica se o segundo parametro existe no primeiro, caso exista traz todo o resto da string anterior ao parametro procurado. Recebe string como primeiro parâmetro e o segundo parametro também é string. Caso encontre o segundo parametro ele retorna o restante da string anterior a posição encontrada. Caso não encontre retorna toda a string original.
+
+**Retorno:** string
+
+```java
+$!{stringUtils.substringBefore(${1:string}, ${2:search})}
+```
+
+### [sustra] stringUtils.substringAfter
+
+**Descrição:** Verifica se o segundo parametro existe no primeiro, caso exista traz todo o resto da string posterior ao parametro procurado. Recebe string como primeiro parâmetro e o segundo parametro também é string. Caso encontre o segundo parametro ele retorna o restante da string posterior a posição encontrada. Caso não encontre retorna toda a string original.
+
+**Retorno:** string
+
+```java
+$!{stringUtils.substringAfter(${1:string}, ${2:search})}
 ```
 
 ## Files

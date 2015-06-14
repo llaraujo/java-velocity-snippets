@@ -2,7 +2,7 @@
 	<content><![CDATA[
 \$!\{stringUtils.capitalize(${1:string})\}
 ]]></content>
-	<tabTrigger>scap</tabTrigger>
+	<tabTrigger>suc</tabTrigger>
 	<scope>source.velocity</scope>
 	<description>stringUtils.capitalize()</description>
 </snippet>
