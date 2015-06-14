@@ -484,11 +484,15 @@ $!{stringUtils.capitalize(${1:string})}
 
 ### [p] parse
 
+**Descrição:** Adiciona o arquivo informado ao contexto e interpreta o conteúdo velocity caso possua.
+
 ```java
 #parse("${1:file}")
 ```
 
 ### [rp] rparse
+
+**Descrição:** A partir do diretório atual, faz uma busca até o diretório raiz, pasta por pasta de forma recursiva pelo arquivo informado por parametro.
 
 ```java
 #rparse("${1:file}")
@@ -779,6 +783,7 @@ $!{_userAgent.isFeaturePhone()}
 ```
 
 ### [st] stop
+
 ```java
 #stop
 ```
